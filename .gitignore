@@ -1,0 +1,8 @@
+.vagrant/*
+Vagrantfile
+*.log
+*.txt
+temp
+*.png
+*.jpg
+_temp_*
