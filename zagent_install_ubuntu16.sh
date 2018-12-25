@@ -84,7 +84,7 @@ ListenPort=10050
 
 # IP address to bind agent
 # If missing, bind to all available IPs
-ListenIP=$(ifconfig | grep "inet addr" | head -n 1| awk '{print $2}' | cut -d ':' -f 2)
+# ListenIP=
 
 # Number of pre-forked instances of zabbix_agentd.
 # Default value is 5
